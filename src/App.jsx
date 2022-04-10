@@ -53,10 +53,10 @@ export default function App() {
         <div className='
           absolute
           bg-red-500
-          w-20
+          w-12
           left-10
           top-150
-          h-40
+          h-8
           rounded
         '/>
         <h1 className='
