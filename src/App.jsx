@@ -25,6 +25,11 @@ export default function App() {
           mr-2
           text-2xl
         '>Participe da Minha</h1>
+        <div className='
+          bg-yellow-500
+          w-20
+          h-10
+        '/>
         <h1 className='
           text-2xl
           text-pink-500
