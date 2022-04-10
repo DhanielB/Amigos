@@ -50,6 +50,15 @@ export default function App() {
           h-5
           rounded-full
         '/>
+        <div className='
+          absolute
+          bg-green-500
+          w-20
+          left-10
+          top-100
+          h-40
+          rounded
+        '/>
         <h1 className='
           text-2xl
           text-pink-500
