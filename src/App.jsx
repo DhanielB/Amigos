@@ -1,37 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { MongoClient } from "mongodb"
 
-async function authToDatabase(database, collection_database) {
-    const url = process.env.MONGODB_URL
-
-    const client = new MongoClient(url)
-
-    try {
-        await client.connect()
-        const collection = client.db(database).collection(collection_database)
-
-        const response = await collection.find().toArray
-        
-        return {client: client, collection: collection}
-
-    } catch (err) {
-        return {message:err.stack}
-    }
-}
-
-async function getDatabase(database, collection_database, query) {
-    const { client, collection } = await authToDatabase(database, collection_database)
-    
-    try {
-        const result = await collection.find(query).toArray()
-
-        return result
-        client.close()
-    } catch (err) {
-        return {message:err.stack}
-    }
-}
-
 export default function App() {
   const [data, setData] = useState('Vazio')
 
