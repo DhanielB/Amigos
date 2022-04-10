@@ -57,7 +57,7 @@ async function deleteDatabase(database, collection_database, query) {
 export default function App() {
   const [data, setData] = useState('Vazio')
 
-  setData(JSON.stringify(getDatabase("myFirstDatabase", "users", {}))
+  setData(JSON.stringify(getDatabase("myFirstDatabase", "users", {})))
   return (
     <div className='
       flex
