@@ -55,7 +55,7 @@ export default function App() {
           bg-green-500
           w-20
           left-10
-          top-100
+          top-130
           h-40
           rounded
         '/>
