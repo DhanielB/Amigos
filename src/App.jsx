@@ -1,5 +1,4 @@
 import React from 'react'
-import { MongoClient } from "mongodb"
 
 export default function App() {
   return (
