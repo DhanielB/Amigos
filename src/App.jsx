@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function App() {
-  const [data, setData] = useState('Nada')
   return (
     <div className='
       flex
@@ -25,7 +24,7 @@ export default function App() {
         <h1 className='
           mr-2
           text-2xl
-        '>Participe da Minha {data}</h1>
+        '>Participe da Minha</h1>
         <div className='
           absolute
           bg-yellow-500
