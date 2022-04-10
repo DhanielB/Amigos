@@ -11,7 +11,7 @@ export default function App() {
       font-extrabold
       justify-center
       tracking-tight
-      text-white
+      dark:text-white
       dark:bg-gray-900
     '>
     <div className='
@@ -58,6 +58,7 @@ export default function App() {
       <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
         <h1 className='
           mr-2
+          text-white
           text-2xl
         '>Participe da Minha</h1>
         <h1 className='
@@ -89,6 +90,7 @@ export default function App() {
           focus:ring-offset-2
           focus:ring-pink-550
           focus:bg-pink-550
+          text-white
           rounded
         '>Enviar</button>
       </form>
