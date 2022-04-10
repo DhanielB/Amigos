@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function App() {
   return (
-    <div className={dark}>
-    <div className='flex
+    <div className='
+      flex
       h-screen
       w-screen
       bg-gray-400
@@ -92,7 +92,6 @@ export default function App() {
         '>Enviar</button>
       </form>
       </div>
-    </div>
     </div>
   )
 }
