@@ -26,6 +26,7 @@ export default function App() {
           text-2xl
         '>Participe da Minha</h1>
         <div className='
+          flex
           bg-yellow-500
           w-20
           l-30
