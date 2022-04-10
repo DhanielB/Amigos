@@ -1,15 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function App() {
-  const [dark, setDark] = useState(false)
-  
-  function toggleDark() {
-    setDark(dark => !dark)
-  }
-
   return (
     <div className={dark}>
-    <div className={dark ? `flex
+    <div className='flex
       h-screen
       w-screen
       bg-gray-400
@@ -17,15 +11,8 @@ export default function App() {
       font-extrabold
       justify-center
       tracking-tight
-      text-white
-      bg-gray-900` : `flex
-      h-screen
-      w-screen
-      bg-gray-400
-      items-center
-      font-extrabold
-      justify-center
-      tracking-tight`}>
+      dark:text-white
+      dark:bg-gray-900'>
     <div className='
           absolute
           bg-yellow-500
@@ -67,7 +54,6 @@ export default function App() {
       sm:display-block
       sm:flex
     '>
-      <button onclick='toggleDark()'>Trocar</button>
       <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
          <h1 className='
           mr-2
@@ -79,7 +65,7 @@ export default function App() {
           text-pink-500
         '>lista de amigos</h1>
 
-        <input className={dark ? `pt-1
+        <input className='pt-1
           pb-1
           pl-2
           w-40
@@ -87,16 +73,8 @@ export default function App() {
           dark:text-white
           border-gray-500
           rounded
-          bg-gray-600
-          outline-none` : `pt-1
-          pb-1
-          pl-2
-          w-40
-          border
-          dark:text-white
-          border-gray-500
-          rounded
-          outline-none`} name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
+          dark:bg-gray-600
+          outline-none' name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
           pt-1
