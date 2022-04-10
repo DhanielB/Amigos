@@ -52,10 +52,10 @@ export default function App() {
         '/>
         <div className='
           absolute
-          bg-green-500
+          bg-red-500
           w-20
           left-10
-          top-130
+          top-150
           h-40
           rounded
         '/>
