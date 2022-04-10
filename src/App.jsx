@@ -1,8 +1,18 @@
 import React from 'react'
 
 export default function App() {
+  const [dark, setDark] = useState('')
+  
+  function toggleDark() {
+    if(dark == '') {
+      setDark('dark')
+    }else{
+      setDark('')
+    }
+  }
+
   return (
-    <div className='dark'>
+    <div className={dark}>
     <div className='
       flex
       h-screen
@@ -57,7 +67,8 @@ export default function App() {
       sm:flex
     '>
       <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
-        <h1 className='
+        <button onclick='toggleDark()'>Trocar</button>
+         <h1 className='
           mr-2
           text-white
           text-2xl
