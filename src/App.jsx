@@ -55,8 +55,10 @@ async function deleteDatabase(database, collection_database, query) {
 }
 
 export default function App() {
-  useEffect(() => {
-    alert(getDatabase("myFirstDatabase", "users", {}))
+  const [data, setData] = useState('Vazio')
+
+  useEffect(async () => {
+    setData(JSON.stringify(await getDatabase("myFirstDatabase", "users", {})))
   }, [])
   return (
     <div className='
@@ -81,7 +83,7 @@ export default function App() {
         <h1 className='
           mr-2
           text-2xl
-        '>Participe da Minha</h1>
+        '>Participe da Minha {data}</h1>
         <div className='
           absolute
           bg-yellow-500
