@@ -12,4 +12,11 @@ export default {
       port: 443,
     }
   }
+  build: {
+    rollupOptions: {
+      plugins: [
+        dynamicImportVars()
+      ],
+    },
+  },
 }
