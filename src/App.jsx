@@ -76,7 +76,7 @@ export default function App() {
           rounded
           dark:bg-gray-600
           outline-none
-        ' name='entry.411041762' placeholder='Digite seu nome' required/>
+        ' name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
           pt-1
