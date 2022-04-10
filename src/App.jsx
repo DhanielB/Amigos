@@ -32,6 +32,7 @@ export default function App() {
           pb-1
           pl-2
           w-40
+          sm:display-block
           border
           text-black
           border-gray-500
