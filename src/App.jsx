@@ -73,7 +73,7 @@ export default function App() {
           text-black
           border-gray-500
           rounded
-          dark:bg-gray-100
+          dark:bg-gray-600
           outline-none
         ' name='entry.411041762' placeholder='Digite seu nome' required/>
         <button className='
