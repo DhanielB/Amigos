@@ -30,7 +30,7 @@ export default function App() {
           bg-yellow-500
           w-20
           left-30
-          top-50
+          top-40
           h-10
         '/>
         <div className='
