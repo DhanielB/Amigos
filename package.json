@@ -12,6 +12,7 @@
     "tailwindcss": "*",
     "autoprefixer": "*",
     "react-dom": "^17.0.2",
-    "vite": "^2.3.8"
+    "vite": "^2.3.8",
+    "mongodb": "*"
   }
 }
