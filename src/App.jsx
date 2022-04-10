@@ -11,7 +11,7 @@ export default function App() {
       font-extrabold
       justify-center
       tracking-tight
-      text-white
+      dark:text-white
       dark:bg-gray-900
     '>
     <div className='
