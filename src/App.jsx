@@ -66,8 +66,8 @@ export default function App() {
       sm:display-block
       sm:flex
     '>
+      <button onclick='toggleDark()'>Trocar</button>
       <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
-        <button onclick='toggleDark()'>Trocar</button>
          <h1 className='
           mr-2
           text-white
