@@ -15,17 +15,6 @@ export default function App() {
       dark:bg-gray-900
     '>
     <div className='
-      pl-10
-      pr-10
-      sm:display-block
-      sm:flex
-    '>
-      <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
-        <h1 className='
-          mr-2
-          text-2xl
-        '>Participe da Minha</h1>
-        <div className='
           absolute
           bg-yellow-500
           w-20
@@ -59,6 +48,18 @@ export default function App() {
           h-8
           rounded
         '/>
+    <div className='
+      pl-10
+      pr-10
+      z-5
+      sm:display-block
+      sm:flex
+    '>
+      <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
+        <h1 className='
+          mr-2
+          text-2xl
+        '>Participe da Minha</h1>
         <h1 className='
           text-2xl
           text-pink-500
