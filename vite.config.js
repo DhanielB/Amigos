@@ -1,4 +1,5 @@
 import reactRefresh from '@vitejs/plugin-react-refresh'
+import dynamic ImportVars from '@rollup/plugin-dynamic-import-vars'
 
 /**
  * https://vitejs.dev/config/
