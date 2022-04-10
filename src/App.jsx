@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { MongoClient } from "mongodb"
 
 export default function App() {
-  const [data, setData] = useState('Vazio')
-
   return (
     <div className='
       flex
