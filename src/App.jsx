@@ -70,7 +70,7 @@ export default function App() {
           pl-2
           w-40
           border
-          text-black
+          text-white
           border-gray-500
           rounded
           dark:bg-gray-600
