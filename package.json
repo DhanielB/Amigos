@@ -1,6 +1,6 @@
 {
-  "name": "ReplitReactjsProject",
-  "version": "0.0.1",
+  "name": "Amigos",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
