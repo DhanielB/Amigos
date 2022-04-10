@@ -26,7 +26,7 @@ export default function App() {
           text-2xl
         '>Participe da Minha</h1>
         <div className='
-          absolute
+          sticky
           bg-yellow-500
           w-20
           left-30
