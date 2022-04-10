@@ -28,6 +28,8 @@ export default function App() {
         <div className='
           bg-yellow-500
           w-20
+          l-30
+          t-40
           h-10
         '/>
         <h1 className='
