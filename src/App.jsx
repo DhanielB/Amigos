@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className={dark}>
-    <div className={dark ? "flex
+    <div className={dark ? `flex
       h-screen
       w-screen
       bg-gray-400
@@ -18,14 +18,14 @@ export default function App() {
       justify-center
       tracking-tight
       text-white
-      bg-gray-900" : "flex
+      bg-gray-900` : `flex
       h-screen
       w-screen
       bg-gray-400
       items-center
       font-extrabold
       justify-center
-      tracking-tight"}>
+      tracking-tight`}>
     <div className='
           absolute
           bg-yellow-500
@@ -79,7 +79,7 @@ export default function App() {
           text-pink-500
         '>lista de amigos</h1>
 
-        <input className={dark ? "pt-1
+        <input className={dark ? `pt-1
           pb-1
           pl-2
           w-40
@@ -88,7 +88,7 @@ export default function App() {
           border-gray-500
           rounded
           bg-gray-600
-          outline-none" : "pt-1
+          outline-none` : `pt-1
           pb-1
           pl-2
           w-40
@@ -96,7 +96,7 @@ export default function App() {
           dark:text-white
           border-gray-500
           rounded
-          outline-none"} name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
+          outline-none`} name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
           pt-1
