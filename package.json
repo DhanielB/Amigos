@@ -9,6 +9,8 @@
   "dependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "react": "^17.0.2",
+    "tailwindcss": "*",
+    "autoprefixer": "*",
     "react-dom": "^17.0.2",
     "vite": "^2.3.8"
   }
