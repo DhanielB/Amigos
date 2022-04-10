@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function App() {
   return (
+    <div className='dark'>
     <div className='
       flex
       h-screen
@@ -95,6 +96,7 @@ export default function App() {
         '>Enviar</button>
       </form>
       </div>
+    </div>
     </div>
   )
 }
