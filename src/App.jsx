@@ -24,7 +24,7 @@ export default function App() {
         <h1 className='
           mr-2
           text-2xl
-        '>Participe da Minha {data}</h1>
+        '>Participe da Minha</h1>
         <div className='
           absolute
           bg-yellow-500
