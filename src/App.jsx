@@ -26,11 +26,11 @@ export default function App() {
           text-2xl
         '>Participe da Minha</h1>
         <div className='
-          flex
+          absolute
           bg-yellow-500
           w-20
-          l-30
-          t-40
+          left-30
+          top-40
           h-10
         '/>
         <h1 className='
