@@ -51,7 +51,7 @@ export default function App() {
     <div className='
       pl-10
       pr-10
-      z-5
+      z-40
       sm:display-block
       sm:flex
     '>
