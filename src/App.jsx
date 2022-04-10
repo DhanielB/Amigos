@@ -35,7 +35,7 @@ export default function App() {
         '/>
         <div className='
           absolute
-          bg-yellow-500
+          bg-green-500
           w-20
           left-10
           top-5
