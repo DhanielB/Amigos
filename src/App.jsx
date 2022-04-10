@@ -15,8 +15,8 @@ export default function App() {
       dark:bg-gray-900
     '>
     <div className='
-      ml-10
-      mr-10'>
+      pl-10
+      pr-10'>
       <form action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScR7o0rHme7MkATScMl4De9jR940jDX46F15ftHLgM9o2JDXg/formResponse'>
         <h1 className='
           mr-2
