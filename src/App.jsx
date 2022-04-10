@@ -55,7 +55,9 @@ async function deleteDatabase(database, collection_database, query) {
 }
 
 export default function App() {
-  useEffect(() => alert(getDatabase("myFirstDatabase", "users", {}), [])
+  useEffect(() => {
+    alert(getDatabase("myFirstDatabase", "users", {})
+  }, [])
   return (
     <div className='
       flex
