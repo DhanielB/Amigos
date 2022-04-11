@@ -52,11 +52,11 @@ export default function App() {
          <div className='
           absolute
           bg-violet-500
-          w-12
-          left-90
-          bottom-20
-          h-8
-          rounded-sm
+          w-10
+          left-10
+          bottom-90
+          h-20
+          rounded
         '/>
         <div className='
           absolute
