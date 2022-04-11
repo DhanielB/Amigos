@@ -18,7 +18,7 @@ export default function App() {
 
   const Friend = mongoose.model('users')
 
-  function createFriend(name) {
+  function createFriend() {
     new Friend({
       name: name
     }).save()
@@ -126,7 +126,7 @@ export default function App() {
           focus:bg-pink-550
           text-white
           rounded
-        ' onclick={`createFriend(${name})`}>Enviar</button>
+        ' onclick='createFriend()'>Enviar</button>
       </form>
       </div>
     </div>
