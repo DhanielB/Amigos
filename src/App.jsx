@@ -33,16 +33,6 @@ export default function App() {
     alert('Você foi registrado!')
   }
   
-  function findFriend(query, length) {
-    Friend.find(query, (err, response) => {
-      if(err) {
-        throw err
-      }
-
-      console.log('[SERVER] User registred data : '+response[response.length-1])
-    })
-  }
-  
   return (
     <div className='
       flex
@@ -120,6 +110,7 @@ export default function App() {
           onChange={(e) => {
             setName(e.target.value)
           }}
+          value={name}
           placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
