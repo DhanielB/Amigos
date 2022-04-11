@@ -54,7 +54,7 @@ export default function App() {
           bg-violet-500
           w-10
           left-10
-          bottom-90
+          bottom-10
           h-20
           rounded
         '/>
