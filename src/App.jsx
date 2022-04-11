@@ -41,16 +41,16 @@ export default function App() {
         '/>
         <div className='
           absolute
-          bg-red-500
+          bg-blue-500
           w-12
-          left-10
-          top-50
+          left-20
+          top-80
           h-8
           rounded
         '/>
          <div className='
           absolute
-          bg-blue-500
+          bg-red-500
           w-15
           left-50
           top-50
