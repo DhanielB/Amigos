@@ -118,7 +118,7 @@ export default function App() {
           outline-none' name='entry.411041762'
           onChange={(e) => {
             setName(e.target.value)
-          })
+          }}
           placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
