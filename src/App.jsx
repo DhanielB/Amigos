@@ -13,7 +13,7 @@ export default function App() {
       tracking-tight
       dark:text-white
       dark:bg-gradient-to-t
-      dark:from-gray-900 to-gray-800'>
+      dark:from-gray-900 to-gray-700'>
     <div className='
           absolute
           bg-yellow-500
