@@ -11,7 +11,7 @@ export default function App() {
     name: {
       type: String,
       require: true
-    },
+    }
   })
 
   mongoose.model('users', FriendSchema)
