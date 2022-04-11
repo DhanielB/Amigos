@@ -30,6 +30,7 @@ export default function App() {
     .catch((err) => {
       console.log('[SERVER] There an error on create user!')
     })
+    alert('Você foi registrado!')
   }
   
   function findFriend(query, length) {
