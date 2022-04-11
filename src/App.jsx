@@ -41,9 +41,9 @@ export default function App() {
         '/>
         <div className='
           absolute
-          bg-blue-500
+          bg-red-500
           w-12
-          left-20
+          left-10
           top-80
           h-8
           rounded
@@ -52,9 +52,19 @@ export default function App() {
           absolute
           bg-violet-500
           w-12
-          left-10
+          left-90
           bottom-20
           h-8
+          rounded-sm
+        '/>
+        <div className='
+          absolute
+          bg-blue-500
+          w-12
+          left-70
+          bottom-15
+          h-8
+          rounded-md
         '/>
     <div className='
       pl-10
