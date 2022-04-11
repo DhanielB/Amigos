@@ -62,8 +62,8 @@ export default function App() {
           bg-blue-500
           w-12
           left-70
-          bottom-15
-          h-8
+          bottom-25
+          h-12
           rounded-md
         '/>
     <div className='
