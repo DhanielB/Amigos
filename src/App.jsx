@@ -50,7 +50,7 @@ export default function App() {
         '/>
          <div className='
           absolute
-          bg-violet-500
+          bg-blue-500
           w-15
           left-50
           top-90
