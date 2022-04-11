@@ -44,7 +44,7 @@ export default function App() {
           bg-red-500
           w-12
           left-10
-          top-150
+          top-50
           h-8
           rounded
         '/>
@@ -53,7 +53,7 @@ export default function App() {
           bg-blue-500
           w-15
           left-50
-          top-90
+          top-50
           h-40
         '/>
     <div className='
