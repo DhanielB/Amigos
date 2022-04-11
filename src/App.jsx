@@ -48,6 +48,14 @@ export default function App() {
           h-8
           rounded
         '/>
+         <div className='
+          absolute
+          bg-green-500
+          w-15
+          left-50
+          top-90
+          h-5
+        '/>
     <div className='
       pl-10
       pr-10
