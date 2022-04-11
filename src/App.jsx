@@ -12,7 +12,8 @@ export default function App() {
       justify-center
       tracking-tight
       dark:text-white
-      dark:bg-gray-900'>
+      dark:bg-gradient-to-r
+      dark:from-gray-900 to-blue-100'>
     <div className='
           absolute
           bg-yellow-500
