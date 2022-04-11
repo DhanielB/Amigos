@@ -53,7 +53,7 @@ export default function App() {
           bg-violet-500
           w-12
           left-10
-          top-180
+          bottom-20
           h-8
         '/>
     <div className='
