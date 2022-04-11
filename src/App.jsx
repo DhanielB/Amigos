@@ -52,9 +52,9 @@ export default function App() {
           absolute
           bg-red-500
           w-15
-          left-50
-          bottom-20
-          h-40
+          left-20
+          top-80
+          h-10
         '/>
     <div className='
       pl-10
