@@ -1,6 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react'
+import mongoose from 'mongoose'
 
 export default function App() {
+  const [name, setName] = useState('')
+  console.log('[SERVER] Connecting...')
+  mongoose.connect('mongodb+srv://florest:senha12345678@cluster0.gwzaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true')
+  console.log('[SERVER] Connected with sucess!')
+
+  const FriendSchema = ({
+    name: {
+      type: String,
+      require: true
+    },
+  })
+
+  mongoose.model('users', FriendSchema)
+
+  const Friend = mongoose.model('users')
+
+  function createFriend(name) {
+    new Friend({
+      name: name
+    }).save()
+
+    .then(() => {
+      console.log('[SERVER] User created with sucess!')
+    })
+
+    .catch((err) => {
+      console.log('[SERVER] There an error on create user!')
+    })
+  }
+  
+  function findFriend(query, length) {
+    Friend.find(query, (err, response) => {
+      if(err) {
+        throw err
+      }
+
+      console.log('[SERVER] User registred data : '+response[response.length-1])
+    })
+  }
+  
   return (
     <div className='
       flex
@@ -74,7 +115,11 @@ export default function App() {
           border-gray-500
           rounded
           dark:bg-gray-600
-          outline-none' name='entry.411041762' placeholder='Digite seu nome' autocomplete={false} required/>
+          outline-none' name='entry.411041762'
+          onChange={(e) => {
+            setName(e.target.value)
+          })
+          placeholder='Digite seu nome' autocomplete={false} required/>
         <button className='
           ml-3
           pt-1
@@ -89,7 +134,7 @@ export default function App() {
           focus:bg-pink-550
           text-white
           rounded
-        '>Enviar</button>
+        ' onclick={`createFriend(${name})`}>Enviar</button>
       </form>
       </div>
     </div>
