@@ -4,6 +4,7 @@ export default function App() {
   return (
     <div className='
       flex
+      select-none
       h-screen
       w-screen
       bg-gray-400
