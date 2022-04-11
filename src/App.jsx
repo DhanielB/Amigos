@@ -62,7 +62,7 @@ export default function App() {
           bg-blue-500
           w-12
           left-20
-          bottom-25
+          top-90
           h-12
           rounded-md
         '/>
