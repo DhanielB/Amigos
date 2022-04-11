@@ -44,8 +44,8 @@ export default function App() {
           absolute
           bg-red-500
           w-12
-          left-10
-          top-80
+          left-80
+          bottom-30
           h-8
           rounded
         '/>
