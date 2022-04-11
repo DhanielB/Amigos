@@ -12,7 +12,7 @@ export default function App() {
       justify-center
       tracking-tight
       dark:text-white
-      dark:bg-gray-900'>
+      dark:bg-slate-900'>
     <div className='
           absolute
           bg-yellow-500
